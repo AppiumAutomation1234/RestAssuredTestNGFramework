@@ -26,7 +26,6 @@ public class TokenManager {
             e.printStackTrace();
             throw new RuntimeException("ABORT!!! Failed to get token");
         }
-
         return access_Token;
     }
 
