@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a4f710-46d6-4ea3-8d7a-874f932a6160" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/TokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/TokenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/StatusCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/StatusCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlayListApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlayListApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/GetPlayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/GetPlayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/ValidationUnauthorizeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/ValidationUnauthorizeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Shareef/API Automation/OM/APITestNGFramework - Copy&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Shareef/API Automation/OM/RestAssuredTestNGFramework-master",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Shareef\Mobile Automation - BDD Framework\APITestNGFramework\src\test\java\com\spotify\oauth2\pojo" />
@@ -60,53 +64,84 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.com.spotify.oauth2.tests (1)">
-    <configuration name="AddPlayListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddPlayListTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestNGFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
       <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.AddPlayListTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -DBASE_URI=&quot;https://api.spotify.com/&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdatePlayListTest.updatePlayList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetPlayListTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestNGFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.UpdatePlayListTest" />
-      <option name="METHOD_NAME" value="updatePlayList" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.GetPlayListTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -DBASE_URI=&quot;https://api.spotify.com/&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidationUnauthorizeTest.validationUnauthorize" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidationUnauthorizeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestNGFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
       <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.ValidationUnauthorizeTest" />
-      <option name="METHOD_NAME" value="validationUnauthorize" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -DBASE_URI=&quot;https://api.spotify.com/&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -188,19 +223,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.AddPlayListTest (1)" />
+      <item itemvalue="TestNG.GetPlayListTest" />
+      <item itemvalue="TestNG.ValidationUnauthorizeTest" />
       <item itemvalue="TestNG.com.spotify.oauth2.tests (1)" />
-      <item itemvalue="TestNG.AddPlayListTest" />
       <item itemvalue="TestNG.com.spotify.oauth2.tests" />
-      <item itemvalue="TestNG.UpdatePlayListTest.updatePlayList" />
-      <item itemvalue="TestNG.ValidationUnauthorizeTest.validationUnauthorize" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.com.spotify.oauth2.tests (1)" />
+        <item itemvalue="TestNG.GetPlayListTest" />
+        <item itemvalue="TestNG.AddPlayListTest (1)" />
+        <item itemvalue="TestNG.ValidationUnauthorizeTest" />
         <item itemvalue="TestNG.com.spotify.oauth2.tests" />
-        <item itemvalue="TestNG.AddPlayListTest" />
-        <item itemvalue="TestNG.UpdatePlayListTest.updatePlayList" />
-        <item itemvalue="TestNG.ValidationUnauthorizeTest.validationUnauthorize" />
       </list>
     </recent_temporary>
   </component>

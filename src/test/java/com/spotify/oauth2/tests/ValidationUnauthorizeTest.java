@@ -25,7 +25,7 @@ public class ValidationUnauthorizeTest extends BaseTest{
         assertThat(response.statusCode(), equalTo(StatusCodes.CODE_401.getCode()));
         Error error = response.as(Error.class);
 
-        assertThat(error.getError().getStatus(), equalTo(StatusCodes.CODE_401));
+        assertThat(error.getError().getStatus(), equalTo(StatusCodes.CODE_401.getCode()));
         assertThat(error.getError().getMessage(), equalTo(StatusCodes.CODE_401.getMsg()));
     }
 }
